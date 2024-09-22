@@ -1,0 +1,25 @@
+.discount {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+#timer {
+    font-size: 2rem;
+    color: red;
+}
+
+#buyButton {
+    background-color: green;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#buyButton:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
