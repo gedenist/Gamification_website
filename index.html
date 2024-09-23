@@ -1,19 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Таймер скидки</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
 <body>
-    <div class="discount">
-        <h1>Скидка 15%</h1>
-        <p>Скидка действует только следующие <span id="timer"></span> минут!</p>
-        <button id="buyButton">Купить со скидкой</button>
+    <!-- Раздел с фоновыми изображениями -->
+    <div class="background-section">
+        <div class="background-image image1">
+            <div class="text-overlay">
+                <h1>Текст для первого изображения</h1>
+            </div>
+        </div>
+        <div class="background-image image2">
+            <div class="text-overlay">
+                <h1>Текст для второго изображения</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Всплывающее окно с таймером скидки -->
+    <div id="discountPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closePopup">&times;</span>
+            <h1>Скидка 15%</h1>
+            <p>Скидка действует только следующие <span id="timer"></span> минут!</p>
+            <button id="buyButton">Купить со скидкой</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
 </body>
-</html>
